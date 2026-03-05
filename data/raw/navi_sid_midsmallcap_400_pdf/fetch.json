@@ -1,0 +1,12 @@
+{
+  "source_id": "navi_sid_midsmallcap_400_pdf",
+  "label": "Navi SID PDF: Nifty MidSmallcap 400 Index Fund",
+  "type": "pdf",
+  "requested_url": "https://public-assets.prod.navi-tech.in/navi-website-assests/documents/SID_Navi_Nifty_MidSmallcap_400_Index_Fund_20251208221458.pdf",
+  "fetched_at": "2026-03-05T12:54:45+00:00",
+  "final_url": "https://public-assets.prod.navi-tech.in/navi-website-assests/documents/SID_Navi_Nifty_MidSmallcap_400_Index_Fund_20251208221458.pdf",
+  "status_code": 200,
+  "content_type": "application/pdf",
+  "content_length": null,
+  "raw_sha256": "5cca04fd913ad10dd8e5a9ca9f47afc8cabc23fbd99d1f423d02607bd4de1265"
+}

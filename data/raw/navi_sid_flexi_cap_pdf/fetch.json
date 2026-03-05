@@ -1,0 +1,12 @@
+{
+  "source_id": "navi_sid_flexi_cap_pdf",
+  "label": "Navi SID PDF: Flexi Cap Fund",
+  "type": "pdf",
+  "requested_url": "https://public-assets.prod.navi-tech.in/navi-website-assests/documents/SID_Navi_Flexi_Cap_Fund_20251203192943.pdf",
+  "fetched_at": "2026-03-05T12:54:25+00:00",
+  "final_url": "https://public-assets.prod.navi-tech.in/navi-website-assests/documents/SID_Navi_Flexi_Cap_Fund_20251203192943.pdf",
+  "status_code": 200,
+  "content_type": "application/pdf",
+  "content_length": null,
+  "raw_sha256": "8b64e7d49a988d4a4912d9a6983372d5134a4e42e7f5e5ecb098eddaf9819b9e"
+}

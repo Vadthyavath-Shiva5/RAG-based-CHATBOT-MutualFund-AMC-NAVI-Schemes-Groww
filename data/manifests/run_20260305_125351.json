@@ -1,0 +1,185 @@
+{
+  "run_id": "20260305_125351",
+  "started_at": "2026-03-05T12:53:51+00:00",
+  "config": "phase1/sources.yaml",
+  "data_dir": "data",
+  "sources_total": 19,
+  "results": [
+    {
+      "source_id": "groww_amc_overview",
+      "ok": true,
+      "url": "https://groww.in/mutual-funds/amc",
+      "type": "html",
+      "document_id": "groww_amc_overview:29a9d6ad2b9875eb",
+      "chunks": 17,
+      "parsed_path": "parsed/groww_amc_overview/document.json",
+      "chunks_path": "chunks/groww_amc_overview/chunks.jsonl"
+    },
+    {
+      "source_id": "groww_navi_amc",
+      "ok": true,
+      "url": "https://groww.in/mutual-funds/amc/navi-mutual-funds",
+      "type": "html",
+      "document_id": "groww_navi_amc:b0a04f555f38b7eb",
+      "chunks": 41,
+      "parsed_path": "parsed/groww_navi_amc/document.json",
+      "chunks_path": "chunks/groww_navi_amc/chunks.jsonl"
+    },
+    {
+      "source_id": "groww_scheme_navi_flexi_cap",
+      "ok": true,
+      "url": "https://groww.in/mutual-funds/navi-flexi-cap-fund-direct-growth",
+      "type": "html",
+      "document_id": "groww_scheme_navi_flexi_cap:6f45f187ab8086e7",
+      "chunks": 24,
+      "parsed_path": "parsed/groww_scheme_navi_flexi_cap/document.json",
+      "chunks_path": "chunks/groww_scheme_navi_flexi_cap/chunks.jsonl"
+    },
+    {
+      "source_id": "navi_sid_flexi_cap_pdf",
+      "ok": false,
+      "url": "https://public-assets.prod.navi-tech.in/navi-website-assests/documents/SID_Navi_Flexi_Cap_Fund_20251203192943.pdf",
+      "type": "pdf",
+      "error": "AttributeError(\"type object 'PdfReader' has no attribute 'from_bytes'\")"
+    },
+    {
+      "source_id": "groww_scheme_navi_large_midcap",
+      "ok": true,
+      "url": "https://groww.in/mutual-funds/navi-large-midcap-fund-direct-growth",
+      "type": "html",
+      "document_id": "groww_scheme_navi_large_midcap:b3d281c14407894d",
+      "chunks": 25,
+      "parsed_path": "parsed/groww_scheme_navi_large_midcap/document.json",
+      "chunks_path": "chunks/groww_scheme_navi_large_midcap/chunks.jsonl"
+    },
+    {
+      "source_id": "navi_sid_large_midcap_pdf",
+      "ok": false,
+      "url": "https://public-assets.prod.navi-tech.in/navi-website-assests/documents/SID_Navi_Large_and_Midcap_Fund_20251203192941.pdf",
+      "type": "pdf",
+      "error": "AttributeError(\"type object 'PdfReader' has no attribute 'from_bytes'\")"
+    },
+    {
+      "source_id": "groww_scheme_navi_midsmallcap_400",
+      "ok": true,
+      "url": "https://groww.in/mutual-funds/navi-nifty-midsmallcap-400-index-fund-direct-growth",
+      "type": "html",
+      "document_id": "groww_scheme_navi_midsmallcap_400:1255d9d67606e073",
+      "chunks": 39,
+      "parsed_path": "parsed/groww_scheme_navi_midsmallcap_400/document.json",
+      "chunks_path": "chunks/groww_scheme_navi_midsmallcap_400/chunks.jsonl"
+    },
+    {
+      "source_id": "navi_sid_midsmallcap_400_pdf",
+      "ok": false,
+      "url": "https://public-assets.prod.navi-tech.in/navi-website-assests/documents/SID_Navi_Nifty_MidSmallcap_400_Index_Fund_20251208221458.pdf",
+      "type": "pdf",
+      "error": "AttributeError(\"type object 'PdfReader' has no attribute 'from_bytes'\")"
+    },
+    {
+      "source_id": "groww_scheme_navi_elss_tax_saver",
+      "ok": true,
+      "url": "https://groww.in/mutual-funds/navi-elss-tax-saver-nifty-50-index-fund-direct-growth",
+      "type": "html",
+      "document_id": "groww_scheme_navi_elss_tax_saver:15ec4c4c09d3a65b",
+      "chunks": 25,
+      "parsed_path": "parsed/groww_scheme_navi_elss_tax_saver/document.json",
+      "chunks_path": "chunks/groww_scheme_navi_elss_tax_saver/chunks.jsonl"
+    },
+    {
+      "source_id": "navi_kim_elss_nifty50_pdf",
+      "ok": false,
+      "url": "https://public-assets.prod.navi-tech.in/navi-website-assests/documents/KIM%20-%20Navi%20ELSS%20Tax%20Saver%20Nifty%2050%20Index%20Fund_20250619144725.pdf",
+      "type": "pdf",
+      "error": "AttributeError(\"type object 'PdfReader' has no attribute 'from_bytes'\")"
+    },
+    {
+      "source_id": "sebi_mf_regulations_page",
+      "ok": false,
+      "url": "https://www.sebi.gov.in/legal/regulations/nov-2025/securities-and-exchange-board-of-india-mutual-funds-regulations-1996-last-amended-on-november-01-2025-_99120.html",
+      "type": "html_pdf_discover",
+      "error": "AttributeError(\"type object 'PdfReader' has no attribute 'from_bytes'\")"
+    },
+    {
+      "source_id": "amfi_intro_mutual_funds",
+      "ok": true,
+      "url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=IntroductionMutualFunds",
+      "type": "html",
+      "document_id": "amfi_intro_mutual_funds:e8ef592447c61065",
+      "chunks": 4,
+      "parsed_path": "parsed/amfi_intro_mutual_funds/document.json",
+      "chunks_path": "chunks/amfi_intro_mutual_funds/chunks.jsonl"
+    },
+    {
+      "source_id": "amfi_types_of_schemes",
+      "ok": true,
+      "url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=TypesOfMutualFundSchemes",
+      "type": "html",
+      "document_id": "amfi_types_of_schemes:c3a0d3d24cfc4884",
+      "chunks": 7,
+      "parsed_path": "parsed/amfi_types_of_schemes/document.json",
+      "chunks_path": "chunks/amfi_types_of_schemes/chunks.jsonl"
+    },
+    {
+      "source_id": "amfi_expense_ratio",
+      "ok": true,
+      "url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=expenseRatio",
+      "type": "html",
+      "document_id": "amfi_expense_ratio:331f5d1fe71f5cb3",
+      "chunks": 3,
+      "parsed_path": "parsed/amfi_expense_ratio/document.json",
+      "chunks_path": "chunks/amfi_expense_ratio/chunks.jsonl"
+    },
+    {
+      "source_id": "amfi_risks",
+      "ok": true,
+      "url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=riskInMutualFunds",
+      "type": "html",
+      "document_id": "amfi_risks:b55392ef3466e420",
+      "chunks": 9,
+      "parsed_path": "parsed/amfi_risks/document.json",
+      "chunks_path": "chunks/amfi_risks/chunks.jsonl"
+    },
+    {
+      "source_id": "amfi_advantages",
+      "ok": true,
+      "url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=AdvantagesOfInvestingInMutualFunds",
+      "type": "html",
+      "document_id": "amfi_advantages:98e81d0859734679",
+      "chunks": 5,
+      "parsed_path": "parsed/amfi_advantages/document.json",
+      "chunks_path": "chunks/amfi_advantages/chunks.jsonl"
+    },
+    {
+      "source_id": "amfi_categorization",
+      "ok": true,
+      "url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=CategorizationOfMutualFundSchemes",
+      "type": "html",
+      "document_id": "amfi_categorization:d58fb4c71f906673",
+      "chunks": 16,
+      "parsed_path": "parsed/amfi_categorization/document.json",
+      "chunks_path": "chunks/amfi_categorization/chunks.jsonl"
+    },
+    {
+      "source_id": "amfi_nav",
+      "ok": true,
+      "url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=NetAssetValueNAV",
+      "type": "html",
+      "document_id": "amfi_nav:2d594581fb3fc63a",
+      "chunks": 5,
+      "parsed_path": "parsed/amfi_nav/document.json",
+      "chunks_path": "chunks/amfi_nav/chunks.jsonl"
+    },
+    {
+      "source_id": "amfi_myths_facts",
+      "ok": true,
+      "url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=MythsAndFactsAboutMutualFunds",
+      "type": "html",
+      "document_id": "amfi_myths_facts:ebb697400714c5e2",
+      "chunks": 7,
+      "parsed_path": "parsed/amfi_myths_facts/document.json",
+      "chunks_path": "chunks/amfi_myths_facts/chunks.jsonl"
+    }
+  ],
+  "finished_at": "2026-03-05T12:55:56+00:00"
+}

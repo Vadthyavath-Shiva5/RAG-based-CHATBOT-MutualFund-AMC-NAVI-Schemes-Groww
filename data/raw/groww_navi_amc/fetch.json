@@ -1,0 +1,13 @@
+{
+  "source_id": "groww_navi_amc",
+  "label": "Groww Navi AMC page (schemes list + FAQs)",
+  "type": "html",
+  "requested_url": "https://groww.in/mutual-funds/amc/navi-mutual-funds",
+  "fetched_at": "2026-03-05T12:54:05+00:00",
+  "final_url": "https://groww.in/mutual-funds/amc/navi-mutual-funds",
+  "status_code": 200,
+  "content_type": "text/html (playwright)",
+  "content_length": null,
+  "rendered_with": "playwright_chromium",
+  "raw_sha256": "dd94f2d36cd3ee308b79ad79c4d4ee4b195683387698643ecd6ffec8f446a097"
+}

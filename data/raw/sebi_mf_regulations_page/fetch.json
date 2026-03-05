@@ -1,0 +1,19 @@
+{
+  "source_id": "sebi_mf_regulations_page",
+  "label": "SEBI MF Regulations page (download linked PDF)",
+  "type": "html_pdf_discover",
+  "requested_url": "https://www.sebi.gov.in/legal/regulations/nov-2025/securities-and-exchange-board-of-india-mutual-funds-regulations-1996-last-amended-on-november-01-2025-_99120.html",
+  "fetched_at": "2026-03-05T12:54:54+00:00",
+  "final_url": "https://www.sebi.gov.in/legal/regulations/nov-2025/securities-and-exchange-board-of-india-mutual-funds-regulations-1996-last-amended-on-november-01-2025-_99120.html",
+  "status_code": 200,
+  "content_type": "text/html (playwright)",
+  "content_length": null,
+  "rendered_with": "playwright_chromium",
+  "raw_sha256_html": "1be3b33ef19e8bb29e225d4dcebbbbc27a7ddde8aa77ed4e3e73bd989c39b53c",
+  "pdf_discovered": "https://www.sebi.gov.in/sebi_data/commondocs/feb-2026/Invitation%20for%20Applications%20under%20SEBI%20Young%20Professional%20Program-new_p.pdf",
+  "pdf_final_url": "https://www.sebi.gov.in/sebi_data/commondocs/feb-2026/Invitation%20for%20Applications%20under%20SEBI%20Young%20Professional%20Program-new_p.pdf",
+  "pdf_status_code": 200,
+  "pdf_content_type": "application/pdf",
+  "pdf_content_length": "734780",
+  "raw_sha256_pdf": "520c597e95bd0b1ff21baeef049bb0029e93896ad17e0c4f1bf7564bc7bf2ed8"
+}

@@ -1,0 +1,13 @@
+{
+  "source_id": "groww_scheme_navi_elss_tax_saver",
+  "label": "Groww scheme: Navi ELSS Tax Saver Nifty 50 Index (Direct Growth)",
+  "type": "html",
+  "requested_url": "https://groww.in/mutual-funds/navi-elss-tax-saver-nifty-50-index-fund-direct-growth",
+  "fetched_at": "2026-03-05T12:54:46+00:00",
+  "final_url": "https://groww.in/mutual-funds/navi-elss-tax-saver-nifty-50-index-fund-direct-growth",
+  "status_code": 200,
+  "content_type": "text/html (playwright)",
+  "content_length": null,
+  "rendered_with": "playwright_chromium",
+  "raw_sha256": "79a8c7a134a6455ee56b8898a6cb404cb7de9e53529df0f6a4cb3e631aab6230"
+}

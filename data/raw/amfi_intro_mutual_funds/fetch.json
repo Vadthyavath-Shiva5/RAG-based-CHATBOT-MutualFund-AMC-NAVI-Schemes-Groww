@@ -1,0 +1,13 @@
+{
+  "source_id": "amfi_intro_mutual_funds",
+  "label": "AMFI: Introduction to Mutual Funds",
+  "type": "html",
+  "requested_url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=IntroductionMutualFunds",
+  "fetched_at": "2026-03-05T12:55:01+00:00",
+  "final_url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=IntroductionMutualFunds",
+  "status_code": 200,
+  "content_type": "text/html (playwright)",
+  "content_length": null,
+  "rendered_with": "playwright_chromium",
+  "raw_sha256": "e4b30790a7a3701edb5d7318227466bdf8134acbcf4085c49f20eefffb095054"
+}

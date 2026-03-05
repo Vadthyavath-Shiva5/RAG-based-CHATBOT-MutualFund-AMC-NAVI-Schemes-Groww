@@ -1,0 +1,12 @@
+{
+  "source_id": "navi_kim_elss_nifty50_pdf",
+  "label": "Navi KIM PDF: ELSS Tax Saver Nifty 50 Index Fund",
+  "type": "pdf",
+  "requested_url": "https://public-assets.prod.navi-tech.in/navi-website-assests/documents/KIM%20-%20Navi%20ELSS%20Tax%20Saver%20Nifty%2050%20Index%20Fund_20250619144725.pdf",
+  "fetched_at": "2026-03-05T12:54:53+00:00",
+  "final_url": "https://public-assets.prod.navi-tech.in/navi-website-assests/documents/KIM%20-%20Navi%20ELSS%20Tax%20Saver%20Nifty%2050%20Index%20Fund_20250619144725.pdf",
+  "status_code": 200,
+  "content_type": "application/pdf",
+  "content_length": null,
+  "raw_sha256": "2ff5578ecc7f1a75f65935d60a13fa4e0f83b2c8e232299204356693f5a35c8d"
+}

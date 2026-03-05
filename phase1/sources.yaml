@@ -1,0 +1,108 @@
+version: 1
+project: "Groww + Navi AMC RAG (Phase-1)"
+
+# Each source produces:
+# - data/raw/<source_id>/... (html/pdf)
+# - data/parsed/<source_id>/document.json
+# - data/chunks/<source_id>/chunks.jsonl
+#
+# types:
+# - html: fetch HTML and parse text/tables/faqs/links
+# - pdf: download PDF and parse text per page
+# - html_pdf_discover: fetch HTML, discover first PDF link, then download & parse
+
+sources:
+  - source_id: groww_amc_overview
+    type: html
+    url: "https://groww.in/mutual-funds/amc"
+    label: "Groww AMC overview & list"
+
+  - source_id: groww_navi_amc
+    type: html
+    url: "https://groww.in/mutual-funds/amc/navi-mutual-funds"
+    label: "Groww Navi AMC page (schemes list + FAQs)"
+
+  - source_id: groww_scheme_navi_flexi_cap
+    type: html
+    url: "https://groww.in/mutual-funds/navi-flexi-cap-fund-direct-growth"
+    label: "Groww scheme: Navi Flexi Cap (Direct Growth)"
+
+  - source_id: navi_sid_flexi_cap_pdf
+    type: pdf
+    url: "https://public-assets.prod.navi-tech.in/navi-website-assests/documents/SID_Navi_Flexi_Cap_Fund_20251203192943.pdf"
+    label: "Navi SID PDF: Flexi Cap Fund"
+
+  - source_id: groww_scheme_navi_large_midcap
+    type: html
+    url: "https://groww.in/mutual-funds/navi-large-midcap-fund-direct-growth"
+    label: "Groww scheme: Navi Large & Midcap (Direct Growth)"
+
+  - source_id: navi_sid_large_midcap_pdf
+    type: pdf
+    url: "https://public-assets.prod.navi-tech.in/navi-website-assests/documents/SID_Navi_Large_and_Midcap_Fund_20251203192941.pdf"
+    label: "Navi SID PDF: Large & Midcap Fund"
+
+  - source_id: groww_scheme_navi_midsmallcap_400
+    type: html
+    url: "https://groww.in/mutual-funds/navi-nifty-midsmallcap-400-index-fund-direct-growth"
+    label: "Groww scheme: Navi Nifty MidSmallcap 400 Index (Direct Growth)"
+
+  - source_id: navi_sid_midsmallcap_400_pdf
+    type: pdf
+    url: "https://public-assets.prod.navi-tech.in/navi-website-assests/documents/SID_Navi_Nifty_MidSmallcap_400_Index_Fund_20251208221458.pdf"
+    label: "Navi SID PDF: Nifty MidSmallcap 400 Index Fund"
+
+  - source_id: groww_scheme_navi_elss_tax_saver
+    type: html
+    url: "https://groww.in/mutual-funds/navi-elss-tax-saver-nifty-50-index-fund-direct-growth"
+    label: "Groww scheme: Navi ELSS Tax Saver Nifty 50 Index (Direct Growth)"
+
+  - source_id: navi_kim_elss_nifty50_pdf
+    type: pdf
+    url: "https://public-assets.prod.navi-tech.in/navi-website-assests/documents/KIM%20-%20Navi%20ELSS%20Tax%20Saver%20Nifty%2050%20Index%20Fund_20250619144725.pdf"
+    label: "Navi KIM PDF: ELSS Tax Saver Nifty 50 Index Fund"
+
+  - source_id: sebi_mf_regulations_page
+    type: html_pdf_discover
+    url: "https://www.sebi.gov.in/legal/regulations/nov-2025/securities-and-exchange-board-of-india-mutual-funds-regulations-1996-last-amended-on-november-01-2025-_99120.html"
+    label: "SEBI MF Regulations page (download linked PDF)"
+
+  - source_id: amfi_intro_mutual_funds
+    type: html
+    url: "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=IntroductionMutualFunds"
+    label: "AMFI: Introduction to Mutual Funds"
+
+  - source_id: amfi_types_of_schemes
+    type: html
+    url: "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=TypesOfMutualFundSchemes"
+    label: "AMFI: Types of Mutual Fund Schemes"
+
+  - source_id: amfi_expense_ratio
+    type: html
+    url: "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=expenseRatio"
+    label: "AMFI: Expense Ratio (TER)"
+
+  - source_id: amfi_risks
+    type: html
+    url: "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=riskInMutualFunds"
+    label: "AMFI: Risks in Mutual Funds"
+
+  - source_id: amfi_advantages
+    type: html
+    url: "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=AdvantagesOfInvestingInMutualFunds"
+    label: "AMFI: Advantages of Investing in Mutual Funds"
+
+  - source_id: amfi_categorization
+    type: html
+    url: "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=CategorizationOfMutualFundSchemes"
+    label: "AMFI: Categorization of Mutual Fund Schemes"
+
+  - source_id: amfi_nav
+    type: html
+    url: "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=NetAssetValueNAV"
+    label: "AMFI: Net Asset Value (NAV)"
+
+  - source_id: amfi_myths_facts
+    type: html
+    url: "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=MythsAndFactsAboutMutualFunds"
+    label: "AMFI: Myths & Facts about Mutual Funds"

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Top leaf -->
+  <path d="M100 20 Q120 50 110 80 Q95 60 100 20" fill="#2d8a3d" stroke="#1a5a25" stroke-width="2"/>
+  
+  <!-- Left leaf -->
+  <path d="M70 70 Q45 80 50 110 Q75 95 70 70" fill="#4ca65c" stroke="#1a5a25" stroke-width="2"/>
+  
+  <!-- Right leaf -->
+  <path d="M130 70 Q155 80 150 110 Q125 95 130 70" fill="#4ca65c" stroke="#1a5a25" stroke-width="2"/>
+  
+  <!-- Center stem -->
+  <line x1="100" y1="80" x2="100" y2="130" stroke="#1a5a25" stroke-width="3"/>
+  
+  <!-- Text -->
+  <text x="100" y="160" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#1a5a25" text-anchor="middle">Groww</text>
+</svg>

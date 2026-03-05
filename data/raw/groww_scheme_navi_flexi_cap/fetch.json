@@ -1,0 +1,13 @@
+{
+  "source_id": "groww_scheme_navi_flexi_cap",
+  "label": "Groww scheme: Navi Flexi Cap (Direct Growth)",
+  "type": "html",
+  "requested_url": "https://groww.in/mutual-funds/navi-flexi-cap-fund-direct-growth",
+  "fetched_at": "2026-03-05T12:54:15+00:00",
+  "final_url": "https://groww.in/mutual-funds/navi-flexi-cap-fund-direct-growth",
+  "status_code": 200,
+  "content_type": "text/html (playwright)",
+  "content_length": null,
+  "rendered_with": "playwright_chromium",
+  "raw_sha256": "c2a78cbc47dcfb00a3fdf8d003a474889e8353d83d58d8f3b0425879bfb06df5"
+}

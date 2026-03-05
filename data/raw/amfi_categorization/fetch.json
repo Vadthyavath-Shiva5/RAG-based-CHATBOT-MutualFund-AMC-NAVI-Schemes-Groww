@@ -1,0 +1,13 @@
+{
+  "source_id": "amfi_categorization",
+  "label": "AMFI: Categorization of Mutual Fund Schemes",
+  "type": "html",
+  "requested_url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=CategorizationOfMutualFundSchemes",
+  "fetched_at": "2026-03-05T12:55:40+00:00",
+  "final_url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=CategorizationOfMutualFundSchemes",
+  "status_code": 200,
+  "content_type": "text/html (playwright)",
+  "content_length": null,
+  "rendered_with": "playwright_chromium",
+  "raw_sha256": "bcb3929dbe81c20b31a742a58cae51b6fbc67019f6ee7d44da220a0bd194fa3b"
+}

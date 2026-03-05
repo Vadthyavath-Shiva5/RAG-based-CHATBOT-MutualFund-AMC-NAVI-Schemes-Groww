@@ -1,0 +1,13 @@
+{
+  "source_id": "amfi_expense_ratio",
+  "label": "AMFI: Expense Ratio (TER)",
+  "type": "html",
+  "requested_url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=expenseRatio",
+  "fetched_at": "2026-03-05T12:55:11+00:00",
+  "final_url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=expenseRatio",
+  "status_code": 200,
+  "content_type": "text/html (playwright)",
+  "content_length": null,
+  "rendered_with": "playwright_chromium",
+  "raw_sha256": "77e9f8fcb63b8e0729aa6e8a1cf3905a54beddd3db7331bfa81a609fb7494e86"
+}

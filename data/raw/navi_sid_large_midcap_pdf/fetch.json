@@ -1,0 +1,12 @@
+{
+  "source_id": "navi_sid_large_midcap_pdf",
+  "label": "Navi SID PDF: Large & Midcap Fund",
+  "type": "pdf",
+  "requested_url": "https://public-assets.prod.navi-tech.in/navi-website-assests/documents/SID_Navi_Large_and_Midcap_Fund_20251203192941.pdf",
+  "fetched_at": "2026-03-05T12:54:35+00:00",
+  "final_url": "https://public-assets.prod.navi-tech.in/navi-website-assests/documents/SID_Navi_Large_and_Midcap_Fund_20251203192941.pdf",
+  "status_code": 200,
+  "content_type": "application/pdf",
+  "content_length": null,
+  "raw_sha256": "3858e77d9fe3eee5f020cbb8c1e7cf54fe7f5e3ecb87debc28b8db5f6a562efa"
+}

@@ -1,0 +1,13 @@
+{
+  "source_id": "amfi_risks",
+  "label": "AMFI: Risks in Mutual Funds",
+  "type": "html",
+  "requested_url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=riskInMutualFunds",
+  "fetched_at": "2026-03-05T12:55:30+00:00",
+  "final_url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=riskInMutualFunds",
+  "status_code": 200,
+  "content_type": "text/html (playwright)",
+  "content_length": null,
+  "rendered_with": "playwright_chromium",
+  "raw_sha256": "547a28e6e1ec1e13e408ce3cf52be831054179abb5ce37e61deae6144b08632e"
+}

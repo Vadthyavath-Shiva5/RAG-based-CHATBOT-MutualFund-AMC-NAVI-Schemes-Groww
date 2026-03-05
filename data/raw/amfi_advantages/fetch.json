@@ -1,0 +1,13 @@
+{
+  "source_id": "amfi_advantages",
+  "label": "AMFI: Advantages of Investing in Mutual Funds",
+  "type": "html",
+  "requested_url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=AdvantagesOfInvestingInMutualFunds",
+  "fetched_at": "2026-03-05T12:55:35+00:00",
+  "final_url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=AdvantagesOfInvestingInMutualFunds",
+  "status_code": 200,
+  "content_type": "text/html (playwright)",
+  "content_length": null,
+  "rendered_with": "playwright_chromium",
+  "raw_sha256": "b848d4681775604715c243b61ec08c6b2350e6e3cb0308b6229dbd97b66d56bf"
+}

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groww Chatbot - Your Mutual Fund Assistant</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <img src="img/groww-logo.svg" alt="Groww" class="logo" width="40" height="40">
+                <h1>Groww</h1>
+                <span>Chatbot Assistant</span>
+            </div>
+            <div class="navbar-right">
+                <div id="topFreshness" class="freshness-indicator" title="Latest scheduler refresh time">
+                    Data updated: --
+                </div>
+                <div class="navbar-menu">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#faq" class="nav-link">FAQ</a>
+                    <a href="#" class="nav-link" onclick="openChat(); return false;">Chat</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Groww</h2>
+            <p>Your Personal <span class="highlight">Navi</span> Mutual Fund Assistant</p>
+            <p class="subtitle">Get instant answers about <span class="highlight">Navi</span> schemes, mutual funds, and investing</p>
+
+            <button class="btn btn-primary btn-lg" onclick="event.preventDefault(); openChat(); return false;">
+                <i class="fas fa-comments"></i> Start Chatting
+            </button>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- Information Section -->
+    <section id="about" class="info-section">
+        <div class="container">
+            <h2>About <span class="highlight">Navi</span> Chatbot</h2>
+            <p class="section-subtitle">Powered by advanced RAG technology to provide accurate <span class="highlight">Navi</span> mutual fund information</p>
+
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="icon-box">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI-Powered</h3>
+                    <p>Uses advanced language models to understand and answer your questions accurately</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon-box">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Secure & Safe</h3>
+                    <p>Your data is protected. We never store personal information or provide financial advice</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon-box">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Cited Sources</h3>
+                    <p>Every answer includes source references from official Navi, AMFI, and SEBI documents</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon-box">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>24/7 Available</h3>
+                    <p>Get answers anytime, anywhere. No waiting for support staff</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon-box">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Latest Data</h3>
+                    <p>Information updated regularly from official sources</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon-box">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Multi-Source</h3>
+                    <p>Combines data from Groww, AMFI, and SEBI for comprehensive answers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Actions Section -->
+    <section class="quick-actions">
+        <div class="container">
+            <h2>Quick Questions</h2>
+            <p class="section-subtitle">Click any question to get instant answers</p>
+
+            <div class="action-buttons">
+                <button class="action-btn" onclick="askQuestion('what is NAV?')">
+                    <i class="fas fa-book"></i>
+                    <span>What is NAV?</span>
+                </button>
+
+                <button class="action-btn" onclick="askQuestion('what is the AUM of Navi AMC?')">
+                    <i class="fas fa-chart-pie"></i>
+                    <span>Navi AUM</span>
+                </button>
+
+                <button class="action-btn" onclick="askQuestion('what is SIP?')">
+                    <i class="fas fa-coins"></i>
+                    <span>SIP Explained</span>
+                </button>
+
+                <button class="action-btn" onclick="askQuestion('what is expense ratio?')">
+                    <i class="fas fa-percent"></i>
+                    <span>Expense Ratio</span>
+                </button>
+
+                <button class="action-btn" onclick="askQuestion('what are Navi mutual fund schemes?')">
+                    <i class="fas fa-list"></i>
+                    <span>Navi Schemes</span>
+                </button>
+
+                <button class="action-btn" onclick="askQuestion('what is exit load?')">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Exit Load</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What is a mutual fund?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>A mutual fund is an investment vehicle where money from multiple investors is pooled together to invest in securities like stocks, bonds, or money market instruments. A professional fund manager manages the pool of money.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can this chatbot provide financial advice?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No, this chatbot provides factual information about Navi schemes and how mutual funds work. It cannot provide personalized financial advice. For investment advice, please consult with a qualified financial advisor.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How accurate is the information provided?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>All information is sourced from official Navi, AMFI, and SEBI documents and is updated regularly. Each answer includes citations to source documents. For the most current information, always verify on official Navi website.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is my personal data safe?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we implement strict privacy measures. We automatically detect and reject requests containing personal information (PAN, account numbers, etc.). We do not store conversation history or personal data.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chat Widget -->
+    <div id="chatBox" class="chat-box">
+        <div class="chat-header">
+            <div class="chat-header-content">
+                <h3>Navi Chatbot</h3>
+                <span class="status online">Online</span>
+            </div>
+            <button class="close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <div id="chatMessages" class="chat-messages">
+            <!-- Messages appear here -->
+        </div>
+
+
+        <div class="chat-input-area">
+            <input
+                type="text"
+                id="chatInput"
+                class="chat-input"
+                placeholder="Ask a question..."
+                autocomplete="off"
+            >
+            <button id="sendBtn" class="send-btn">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+
+        <div class="chat-footer">
+            <p id="chatFreshness" class="chat-freshness">Facts loaded till: --</p>
+            <p>Powered by Navi AMC • <a href="#">Privacy Policy</a></p>
+        </div>
+    </div>
+
+    <!-- Chat Toggle Button (Float) -->
+    <button id="chatToggle" class="chat-toggle">
+        <i class="fas fa-comments"></i>
+        <span class="chat-badge">1</span>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Navi AMC. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/chat.js"></script>
+</body>
+</html>
+
+

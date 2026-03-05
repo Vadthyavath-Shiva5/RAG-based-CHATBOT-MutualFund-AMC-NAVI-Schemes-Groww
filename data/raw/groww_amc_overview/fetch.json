@@ -1,0 +1,13 @@
+{
+  "source_id": "groww_amc_overview",
+  "label": "Groww AMC overview & list",
+  "type": "html",
+  "requested_url": "https://groww.in/mutual-funds/amc",
+  "fetched_at": "2026-03-05T12:53:52+00:00",
+  "final_url": "https://groww.in/mutual-funds/amc",
+  "status_code": 200,
+  "content_type": "text/html (playwright)",
+  "content_length": null,
+  "rendered_with": "playwright_chromium",
+  "raw_sha256": "fdc310a9eb9f46ac540651d31f24cd30527bb690cf45302b5bb8f74005dffbe1"
+}

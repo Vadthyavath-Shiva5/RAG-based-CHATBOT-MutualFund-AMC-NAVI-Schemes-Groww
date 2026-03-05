@@ -1,0 +1,103 @@
+{
+  "schema": "phase1.document.v1",
+  "content_type": "html",
+  "source_id": "amfi_nav",
+  "label": "AMFI: Net Asset Value (NAV)",
+  "url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=NetAssetValueNAV",
+  "document_id": "amfi_nav:2d594581fb3fc63a",
+  "extracted_at": "2026-03-05T12:55:51+00:00",
+  "title": "NET ASSET VALUE (NAV) | AMFI",
+  "text": "MF\nSIF\nA-\nA\nA+\nLight\nDark\nInvestor\nDistributor\nResearch & Information\nAbout AMFI\nContact Us\nSearch\nHome\n/\nInvestor Corner\n/\nNET ASSET VALUE (NAV)\nPrevious\nNext\nNET ASSET VALUE (NAV)\nWHAT IS NAV?\nNAV stands for Net Asset Value. The performance of a mutual fund scheme is denoted by its NAV per unit.\nNAV per unit is the market value of securities of a scheme divided by the total number of units of the scheme on a given date. For example, if the market value of securities of a mutual fund scheme is ₹200 lakh and the mutual fund has issued 10 lakh units of ₹ 10 each to the investors, then the NAV per unit of the fund is ₹ 20 (i.e., ₹200 lakh/10 lakh).\nSince market value of securities changes every day, NAV of a scheme also varies on day-to-day basis.\nNAVs of mutual fund schemes are published on respective mutual funds’ websites as well as AMFI’s website daily.\nFor details on Disclosure of NAV of Mutual fund schemes, please\nclick here\nUnlike stocks, where the price is driven by the stock market and changes from minute-to-minute, NAVs of mutual fund schemes are declared at the end of each trading day after markets are closed, in accordance with SEBI Mutual Fund Regulations. Further, Units of mutual fund schemes under all scheme (except Liquid & Overnight funds) are allotted only at prospective NAV, i.e., the NAV that would be declared at the end of the day, based on the closing market value of the securities held in the respective schemes.\nA mutual fund may accept applications even after the cut-off time, but you will get the NAV of the next business day. Further, the cut-off time rules apply for redemptions too.\nHOW IS THE APPLICABLE NAV DETERMINED?\nWHAT IS SALE AND REPURCHASE PRICE?\nSale Price\nSale Price is the price payable per unit by an investor for purchase of units (subscription) and/or switch-in from other schemes of a mutual fund.\nSEBI vide circular no. SEBI / IMD / CIR No. 4 / 168230 / 09 dated June 30, 2009 has abolished Entry Load for all mutual fund schemes.\nHence, during the New Fund Offer (NFO), the Sale Price per unit is at Face Value per unit specified in the respective Scheme Information Document (SID) and Key Information Memorandum (KIM)\nDuring the ‘Ongoing Offer’ period (i.e., the date from which the scheme re-opens for subscriptions/redemptions after the closure of the NFO period.), the units may be purchased at NAV i.e., the Sale Price per unit is equivalent to applicable NAV on the date of subscription\nRepurchase/Redemption Price\nThe Repurchase/Redemption Price is the price per Unit at which a Mutual Fund would ‘repurchase’ the units (i.e., buys back units from the investor) upon redemption of units or switch-outs of units to other schemes/plans of the Mutual Fund by the investors, and includes Exit Load, if / wherever applicable.\nRedemption price is calculated as follows:\nRedemption Price = Applicable NAV*(1- Exit Load, if any) For Example: If the Applicable NAV is ₹10 and Exit Load is 2%, then the Redemption Price will be = ₹10* (1-0.02) = ₹9.80\nIt may be noted that an AMC / Trustee has the right to modify existing Exit Load structure and/or to introduce Exit Loads subject to a maximum limit prescribed under the Regulations.\nAny change in Load structure will be effective on prospective basis and will not affect the existing mutual fund units in any manner.\nAs per SEBI (Mutual Funds) Regulations, 1996, in respect of Open-Ended Schemes, Repurchase Price (commonly referred to as Redemption price) shall not be lower than 95% of NAV.\nIt may be noted that units of Closed Ended Schemes cannot be Repurchased prematurely.\nFAQS on applicability of NAV based on realisation of funds\nNEW RULE ON APPLICABLE NAV EFFECTIVE FROM 1-FEB-2021 UNDER ALL MUTUAL FUND SCHEMES. (OTHER THAN LIQUID FUNDS AND OVERNIGHT FUNDS) Please\nclick here\nGo to Next Item\nHide Menu\nRelated Topics\nCut Off Timings & New Rule on Applicable NAV\nTrack your MF Investments using Fund Fact Sheet\nDownload Various Forms\nAssociation of Mutual Funds in India\nCIN- U65991MH1995NPL092062\nKnow About AMFI\nAbout AMFI\nObjectives\nBoard of Directors\nAMFI Executives\nCommittees\nView More\nMedia\nPress Release\nAMFI Publications\nAMFI Mutual Fund Summit\nGallery\nVideos\nOther Links\nSchedule of Investor Awareness Program\nAMC Branches\nLocate a MF Distributor\nSEBI\nUseful Links\nView More\nTERMS OF USE\n|\nPRIVACY NOTICE\n© 2025 AMFI. All Rights Reserved\nQuick Access\nLatest NAV\nDownload NAV\nDisclosure of Risk Parameters\nNew Fund Offer\nView All",
+  "tables": [],
+  "faqs": [],
+  "links": {
+    "all": [
+      {
+        "text": "",
+        "url": "https://www.amfiindia.com/"
+      },
+      {
+        "text": "About AMFI",
+        "url": "https://www.amfiindia.com/aboutamfi"
+      },
+      {
+        "text": "Contact Us",
+        "url": "https://www.amfiindia.com/contact"
+      },
+      {
+        "text": "Home",
+        "url": "https://www.amfiindia.com/"
+      },
+      {
+        "text": "Investor Corner",
+        "url": "https://www.amfiindia.com/investor"
+      },
+      {
+        "text": "click here",
+        "url": "https://www.amfiindia.com/uploads/Reviewoftimelimitfordisclosureof_NAV_f5ebc65062.pdf"
+      },
+      {
+        "text": "click here",
+        "url": "https://www.amfiindia.com/uploads/Uniformityin_NA_Vapplicability_b8ade2a39e.html"
+      },
+      {
+        "text": "Cut Off Timings & New Rule on Applicable NAV",
+        "url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=CutOffTimingsAndNewRuleOnApplicableNAV"
+      },
+      {
+        "text": "Track your MF Investments using Fund Fact Sheet",
+        "url": "https://www.amfiindia.com/investor/become-mf-distributor?zoneName=trackYourMF"
+      },
+      {
+        "text": "Download Various Forms",
+        "url": "https://www.amfiindia.com/investor/become-mf-distributor?zoneName=downloadVariousForms"
+      },
+      {
+        "text": "",
+        "url": "https://www.linkedin.com/company/amfiindia/"
+      },
+      {
+        "text": "",
+        "url": "https://www.youtube.com/@amfi_india"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/amfiindia"
+      },
+      {
+        "text": "",
+        "url": "https://www.instagram.com/amfiindia/"
+      },
+      {
+        "text": "",
+        "url": "https://www.linkedin.com/company/amfiindia/"
+      },
+      {
+        "text": "",
+        "url": "https://www.youtube.com/@amfi_india"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/amfiindia"
+      },
+      {
+        "text": "",
+        "url": "https://www.instagram.com/amfiindia/"
+      },
+      {
+        "text": "TERMS OF USE",
+        "url": "https://www.amfiindia.com/terms-of-use"
+      },
+      {
+        "text": "PRIVACY NOTICE",
+        "url": "https://www.amfiindia.com/privacy-notice"
+      }
+    ],
+    "pdf_first": "https://www.amfiindia.com/uploads/Reviewoftimelimitfordisclosureof_NAV_f5ebc65062.pdf"
+  },
+  "meta": {
+    "text_chars": 4465,
+    "has_tables": false,
+    "has_faqs": false
+  }
+}

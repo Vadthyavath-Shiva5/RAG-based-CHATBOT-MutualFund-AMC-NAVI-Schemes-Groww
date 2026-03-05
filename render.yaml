@@ -1,0 +1,78 @@
+services:
+  - type: web
+    name: navi-chatbot-backend
+    runtime: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: bash -lc 'export API_HOST=0.0.0.0 && export API_PORT=$PORT && python phase4/app.py'
+    healthCheckPath: /health
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: API_DEBUG
+        value: "false"
+      - key: CORS_ALLOW_ORIGINS
+        sync: false
+      - key: RATE_LIMIT_ENABLED
+        value: "true"
+      - key: RATE_LIMIT_REQUESTS_PER_MINUTE
+        value: "30"
+      - key: RATE_LIMIT_WINDOW_SECONDS
+        value: "60"
+      - key: LLM_PROVIDER
+        sync: false
+      - key: LLM_MODEL
+        sync: false
+      - key: LLM_API_KEY
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: EMBEDDING_PROVIDER
+        value: hf
+      - key: EMBEDDING_MODEL
+        value: all-MiniLM-L6-v2
+      - key: EMBEDDING_API_KEY
+        sync: false
+      - key: DATA_DIR
+        value: ./data
+
+  - type: web
+    name: navi-chatbot-frontend
+    runtime: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: bash -lc 'export FRONTEND_HOST=0.0.0.0 && export FRONTEND_PORT=$PORT && python phase6/app.py'
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: FRONTEND_DEBUG
+        value: "false"
+      - key: BACKEND_API_BASE_URL
+        sync: false
+
+  - type: worker
+    name: navi-chatbot-scheduler
+    runtime: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: python phase5/scheduler.py --mode start --interval-minutes 60
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: LLM_PROVIDER
+        sync: false
+      - key: LLM_MODEL
+        sync: false
+      - key: LLM_API_KEY
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: EMBEDDING_PROVIDER
+        value: hf
+      - key: EMBEDDING_MODEL
+        value: all-MiniLM-L6-v2
+      - key: EMBEDDING_API_KEY
+        sync: false
+      - key: DATA_DIR
+        value: ./data
+

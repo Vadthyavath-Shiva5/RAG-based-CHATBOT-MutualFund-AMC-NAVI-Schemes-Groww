@@ -1,0 +1,13 @@
+{
+  "source_id": "groww_scheme_navi_midsmallcap_400",
+  "label": "Groww scheme: Navi Nifty MidSmallcap 400 Index (Direct Growth)",
+  "type": "html",
+  "requested_url": "https://groww.in/mutual-funds/navi-nifty-midsmallcap-400-index-fund-direct-growth",
+  "fetched_at": "2026-03-05T12:54:36+00:00",
+  "final_url": "https://groww.in/mutual-funds/navi-nifty-midsmallcap-400-index-fund-direct-growth",
+  "status_code": 200,
+  "content_type": "text/html (playwright)",
+  "content_length": null,
+  "rendered_with": "playwright_chromium",
+  "raw_sha256": "d8ef3a71f86a1ce9330fa870abbe1973938f4740e2b68e32dac90eea1f2d6fe2"
+}

@@ -1,0 +1,217 @@
+sources:
+  # Groww & Navi Schemes
+  - id: link-01
+    name: "Groww AMC Overview"
+    url: "https://groww.in/mutual-funds/amc"
+    type: "html"
+    refresh_frequency: "monthly"
+    allowed_fields:
+      - amc_name
+      - aum_total
+      - schemes_list
+
+  - id: link-02
+    name: "Groww Navi AMC Page"
+    url: "https://groww.in/mutual-funds/amc/navi-mutual-funds"
+    type: "html"
+    refresh_frequency: "weekly"
+    allowed_fields:
+      - navi_aum
+      - navi_schemes_list
+      - navi_fund_managers
+
+  - id: link-03
+    name: "Navi Flexi Cap"
+    url: "https://groww.in/mutual-funds/navi-flexi-cap-direct-growth"
+    type: "html"
+    refresh_frequency: "weekly"
+    allowed_fields:
+      - nav
+      - nav_date
+      - aum
+      - min_sip
+      - min_lumpsum
+      - expense_ratio
+      - exit_load
+      - risk_label
+      - holdings
+      - performance_returns
+      - portfolio_composition
+
+  - id: link-04
+    name: "Navi Flexi Cap SID PDF"
+    url: "https://public-assets.prod.navi-tech.in/mutual-funds/sid-navi-flexi-cap.pdf"
+    type: "pdf"
+    refresh_frequency: "quarterly"
+    allowed_fields:
+      - scheme_objective
+      - risk_factors
+      - investment_strategy
+      - expense_structure
+
+  - id: link-05
+    name: "Navi Large & Midcap"
+    url: "https://groww.in/mutual-funds/navi-large-and-midcap-fund-direct-growth"
+    type: "html"
+    refresh_frequency: "weekly"
+    allowed_fields:
+      - nav
+      - nav_date
+      - aum
+      - min_sip
+      - min_lumpsum
+      - expense_ratio
+      - exit_load
+      - risk_label
+
+  - id: link-06
+    name: "Navi Large & Midcap SID PDF"
+    url: "https://public-assets.prod.navi-tech.in/mutual-funds/sid-navi-large-midcap.pdf"
+    type: "pdf"
+    refresh_frequency: "quarterly"
+    allowed_fields:
+      - scheme_objective
+      - risk_factors
+
+  - id: link-07
+    name: "Navi MidSmallcap 400 Index"
+    url: "https://groww.in/mutual-funds/navi-midsmallcap-400-index-fund-direct-growth"
+    type: "html"
+    refresh_frequency: "weekly"
+    allowed_fields:
+      - nav
+      - aum
+      - min_sip
+      - expense_ratio
+      - exit_load
+
+  - id: link-08
+    name: "Navi MidSmallcap 400 SID PDF"
+    url: "https://public-assets.prod.navi-tech.in/mutual-funds/sid-navi-midsmallcap-400.pdf"
+    type: "pdf"
+    refresh_frequency: "quarterly"
+    allowed_fields:
+      - scheme_objective
+      - tracking_difference
+
+  - id: link-09
+    name: "Navi ELSS Nifty 50 Index"
+    url: "https://groww.in/mutual-funds/navi-elss-nifty-50-index-fund-direct-growth"
+    type: "html"
+    refresh_frequency: "weekly"
+    allowed_fields:
+      - nav
+      - aum
+      - min_sip
+      - expense_ratio
+      - lock_in_period
+      - risk_label
+
+  - id: link-10
+    name: "Navi ELSS KIM PDF"
+    url: "https://public-assets.prod.navi-tech.in/mutual-funds/kim-navi-elss-nifty-50.pdf"
+    type: "pdf"
+    refresh_frequency: "quarterly"
+    allowed_fields:
+      - key_information
+      - tax_benefits
+      - charges
+
+  # Regulatory & Educational Sources
+  - id: link-11
+    name: "SEBI Mutual Funds Regulations"
+    url: "https://www.sebi.gov.in/legal/mutual-funds.html"
+    type: "html"
+    refresh_frequency: "quarterly"
+    allowed_fields:
+      - regulatory_framework
+      - investor_protection
+      - guidelines
+
+  - id: link-12
+    name: "AMFI Introduction to Mutual Funds"
+    url: "https://www.amfiindia.com/investor-education/introduction-to-mutual-funds"
+    type: "html"
+    refresh_frequency: "quarterly"
+    allowed_fields:
+      - what_is_mf
+      - how_mf_works
+      - benefits
+
+  - id: link-13
+    name: "AMFI Types of Mutual Fund Schemes"
+    url: "https://www.amfiindia.com/investor-education/types-of-schemes"
+    type: "html"
+    refresh_frequency: "quarterly"
+    allowed_fields:
+      - equity_schemes
+      - debt_schemes
+      - hybrid_schemes
+      - index_schemes
+
+  - id: link-14
+    name: "AMFI Expense Ratio"
+    url: "https://www.amfiindia.com/investor-education/expense-ratio"
+    type: "html"
+    refresh_frequency: "quarterly"
+    allowed_fields:
+      - what_is_expense_ratio
+      - ter_calculation
+      - direct_vs_regular
+
+  - id: link-15
+    name: "AMFI Exit Load"
+    url: "https://www.amfiindia.com/investor-education/exit-load"
+    type: "html"
+    refresh_frequency: "quarterly"
+    allowed_fields:
+      - what_is_exit_load
+      - exit_load_structure
+
+  - id: link-16
+    name: "AMFI Risk in Mutual Funds"
+    url: "https://www.amfiindia.com/investor-education/risks-in-mutual-funds"
+    type: "html"
+    refresh_frequency: "quarterly"
+    allowed_fields:
+      - market_risk
+      - credit_risk
+      - liquidity_risk
+      - operational_risk
+
+  - id: link-17
+    name: "AMFI Categorization of MF Schemes"
+    url: "https://www.amfiindia.com/investor-education/categorization-of-schemes"
+    type: "html"
+    refresh_frequency: "quarterly"
+    allowed_fields:
+      - scheme_categories
+      - classification_rules
+
+  - id: link-18
+    name: "AMFI NAV - Net Asset Value"
+    url: "https://www.amfiindia.com/investor-education/net-asset-value"
+    type: "html"
+    refresh_frequency: "quarterly"
+    allowed_fields:
+      - what_is_nav
+      - nav_calculation
+      - nav_frequency
+
+  - id: link-19
+    name: "AMFI Myths vs Facts about MU"
+    url: "https://www.amfiindia.com/investor-education/myths-and-facts"
+    type: "html"
+    refresh_frequency: "quarterly"
+    allowed_fields:
+      - common_myths
+      - factual_information
+
+# General settings
+settings:
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 RAG-Chatbot"
+  timeout_seconds: 30
+  rate_limit_delay_seconds: 2
+  retry_attempts: 3
+  cache_dir: "data/cache"
+  output_dir: "data"
