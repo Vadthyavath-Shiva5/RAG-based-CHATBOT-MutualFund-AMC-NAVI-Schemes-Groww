@@ -20,10 +20,4 @@ Data sources include Groww, AMFI, and SEBI content.
 - `phase8`: deployment architecture and rollout plan
 
 
-Configured in `phase0/config.py` and consumed by backend:
-- `CORS_ALLOW_ORIGINS` (comma-separated allowlist; `*` for local dev)
-- `RATE_LIMIT_ENABLED`
-- `RATE_LIMIT_REQUESTS_PER_MINUTE`
-- `RATE_LIMIT_WINDOW_SECONDS`
-
-Defaults are set to keep local development behavior unchanged.
+Detailed phase Architecture is noted in individual phase folder.
