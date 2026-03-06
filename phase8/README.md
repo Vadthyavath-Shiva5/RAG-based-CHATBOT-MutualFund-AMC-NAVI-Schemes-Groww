@@ -66,7 +66,7 @@ Current repository status:
 
 ## Render Deployment Blueprint (Recommended)
 
-Create three services:
+Create three services using **Render Blueprint** from `render.yaml`:
 
 1. Backend Web Service
 - Start command: `python phase4/app.py`
@@ -78,8 +78,12 @@ Create three services:
 - Env var `BACKEND_API_BASE_URL` pointing to backend public URL
 
 3. Scheduler Worker or Cron
-- Command: `python phase5/scheduler.py --mode start`
+- Command: `python -m phase5.scheduler --mode start --interval-minutes 60`
 - Uses same persistent `data/` storage strategy
+
+If Render asks for a single start command:
+- That flow is for creating one standalone service.
+- Cancel that flow and create a **Blueprint** deploy so all three services are created together.
 
 ## Hugging Face Spaces Blueprint (Demo Path)
 

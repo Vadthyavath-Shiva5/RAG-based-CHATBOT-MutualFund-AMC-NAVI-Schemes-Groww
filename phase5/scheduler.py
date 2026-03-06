@@ -8,6 +8,7 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import sys
 import time
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
@@ -15,6 +16,11 @@ from pathlib import Path
 from typing import Dict, List, Optional
 
 import yaml
+
+# Ensure repository root is importable when running as a script.
+REPO_ROOT = Path(__file__).resolve().parent.parent
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 from phase0.config import Config
 from phase1.run import Source, _fetch_and_parse_source, _load_sources
@@ -284,9 +290,10 @@ def main() -> int:
 
     args = parser.parse_args()
 
+    config = Config()
     scheduler = RefreshScheduler(
-        config=Config(),
-        data_dir=Path("data"),
+        config=config,
+        data_dir=config.data_dir,
         phase1_config=Path("phase1/sources.yaml"),
     )
 
@@ -324,4 +331,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

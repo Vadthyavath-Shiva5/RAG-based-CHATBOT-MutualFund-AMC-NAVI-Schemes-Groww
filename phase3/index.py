@@ -8,23 +8,11 @@ import json
 import logging
 from pathlib import Path
 from typing import Dict, Any, List
-import sys
 
-# Add phase0 to path for config
-sys.path.insert(0, str(Path(__file__).parent.parent / "phase0"))
-
-try:
-    from lib.config import Config
-except ImportError:
-    # Fallback if config not available
-    class Config:
-        def __init__(self):
-            self.data_dir = Path("data")
-            self.phase3_dir = Path("phase3")
-
-from lib.embeddings import EmbeddingModel
-from lib.vector_store import VectorStore
-from lib.doc_store import DocumentStore
+from phase0.config import Config
+from phase3.lib.embeddings import EmbeddingModel
+from phase3.lib.vector_store import VectorStore
+from phase3.lib.doc_store import DocumentStore
 
 logger = logging.getLogger(__name__)
 
@@ -41,7 +29,7 @@ class IndexBuilder:
         """
         self.config = config
         self.data_dir = config.data_dir
-        self.phase3_dir = config.phase3_dir
+        self.phase3_dir = Path(getattr(config, "phase3_dir", "phase3"))
 
         # Initialize components with config
         embedding_provider = getattr(config, 'embedding_provider', 'hf')
@@ -53,11 +41,11 @@ class IndexBuilder:
             api_key=embedding_api_key
         )
         self.vector_store = VectorStore(
-            index_path=self.phase3_dir / "vector_store.faiss",
-            metadata_path=self.phase3_dir / "vector_metadata.json"
+            index_path=self.data_dir / "vector_store.faiss",
+            metadata_path=self.data_dir / "vector_metadata.json"
         )
         self.doc_store = DocumentStore(
-            db_path=self.phase3_dir / "doc_store.db"
+            db_path=self.data_dir / "doc_store.db"
         )
 
     def setup_doc_store(self):
@@ -260,11 +248,7 @@ def main():
     args = parser.parse_args()
 
     # Initialize config
-    try:
-        config = Config()
-    except:
-        # Fallback config
-        config = Config()
+    config = Config()
 
     # Initialize index builder
     builder = IndexBuilder(config)

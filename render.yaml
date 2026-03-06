@@ -4,7 +4,7 @@ services:
     runtime: python
     plan: starter
     buildCommand: pip install -r requirements.txt
-    startCommand: bash -lc 'export API_HOST=0.0.0.0 && export API_PORT=$PORT && python phase4/app.py'
+    startCommand: API_HOST=0.0.0.0 API_PORT=$PORT python phase4/app.py
     healthCheckPath: /health
     envVars:
       - key: ENVIRONMENT
@@ -41,7 +41,7 @@ services:
     runtime: python
     plan: starter
     buildCommand: pip install -r requirements.txt
-    startCommand: bash -lc 'export FRONTEND_HOST=0.0.0.0 && export FRONTEND_PORT=$PORT && python phase6/app.py'
+    startCommand: FRONTEND_HOST=0.0.0.0 FRONTEND_PORT=$PORT python phase6/app.py
     envVars:
       - key: ENVIRONMENT
         value: production
@@ -55,7 +55,7 @@ services:
     runtime: python
     plan: starter
     buildCommand: pip install -r requirements.txt
-    startCommand: python phase5/scheduler.py --mode start --interval-minutes 60
+    startCommand: python -m phase5.scheduler --mode start --interval-minutes 60
     envVars:
       - key: ENVIRONMENT
         value: production
@@ -75,4 +75,3 @@ services:
         sync: false
       - key: DATA_DIR
         value: ./data
-
