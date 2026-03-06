@@ -1,0 +1,80 @@
+# Source List – Mutual Fund FAQ Assistant
+
+The following public sources were used to build the knowledge base for the RAG chatbot.
+
+## SEBI Regulations
+
+SEBI Mutual Fund Regulations  
+https://www.sebi.gov.in/legal/regulations/nov-2025/securities-and-exchange-board-of-india-mutual
+
+---
+
+## AMFI Investor Education
+
+What is a Mutual Fund  
+https://www.amfiindia.com/investor/knowledge-center-info?zoneName=IntroductionMutualFunds
+
+Types of Mutual Funds  
+https://www.amfiindia.com/investor/knowledge-center-info?zoneName=TypesOfMutualFundSchemes
+
+Expense Ratio  
+https://www.amfiindia.com/investor/knowledge-center-info?zoneName=expenseRatio
+
+Risks in Mutual Funds  
+https://www.amfiindia.com/investor/knowledge-center-info?zoneName=riskInMutualFunds
+
+Advantages of Mutual Funds  
+https://www.amfiindia.com/investor/knowledge-center-info?zoneName=AdvantagesOfInvestingInMutualFunds
+
+Categorization of Mutual Fund Schemes  
+https://www.amfiindia.com/investor/knowledge-center-info?zoneName=CategorizationOfMutualFundSchemes
+
+Net Asset Value (NAV)  
+https://www.amfiindia.com/investor/knowledge-center-info?zoneName=NetAssetValueNAV
+
+Myths and Facts About Mutual Funds  
+https://www.amfiindia.com/investor/knowledge-center-info?zoneName=MythsAndFactsAboutMutualFunds
+
+---
+
+## AMC Information
+
+What is an AMC (Groww guide)  
+https://groww.in/mutual-funds/amc
+
+NAVI Mutual Fund AMC page  
+https://groww.in/mutual-funds/amc/navi-mutual-funds
+
+---
+
+## NAVI Mutual Fund Schemes
+
+Navi Flexi Cap Fund Direct Growth  
+https://groww.in/mutual-funds/navi-flexi-cap-fund-direct-growth
+
+SID Document  
+https://public-assets.prod.navi-tech.in/navi-website-assests/documents/SID_Navi_Flexi_Cap_Fund_20251203192943.pdf
+
+---
+
+Navi Large & Midcap Fund Direct Growth  
+https://groww.in/mutual-funds/navi-large-midcap-fund-direct-growth
+
+SID Document  
+https://public-assets.prod.navi-tech.in/navi-website-assests/documents/SID_Navi_Large_and_Midcap_Fund_20251203192941.pdf
+
+---
+
+Navi Nifty MidSmallcap 400 Index Fund Direct Growth  
+https://groww.in/mutual-funds/navi-nifty-midsmallcap-400-index-fund-direct-growth
+
+SID Document  
+https://public-assets.prod.navi-tech.in/navi-website-assests/documents/SID_Navi_Nifty_MidSmallcap_400_Index_Fund_20251208221458.pdf
+
+---
+
+Navi ELSS Tax Saver Nifty 50 Index Fund Direct Growth  
+https://groww.in/mutual-funds/navi-elss-tax-saver-nifty-50-index-fund-direct-growth
+
+KIM Document  
+https://public-assets.prod.navi-tech.in/navi-website-assests/documents/KIM%20-%20Navi%20ELSS%20Tax%20Saver%20Nifty%2050%20Index%20Fund_20250619144725.pdf

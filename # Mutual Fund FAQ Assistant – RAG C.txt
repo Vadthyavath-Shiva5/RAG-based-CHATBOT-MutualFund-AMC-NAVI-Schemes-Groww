@@ -1,0 +1,119 @@
+# Mutual Fund FAQ Assistant – RAG Chatbot (NAVI AMC)
+
+This project is a **RAG-based FAQ chatbot** built as part of the **Neatleap Learn in Public (LIP) Challenge – Milestone 1**.
+
+The chatbot answers **facts-only questions about mutual fund schemes** using **official public sources only** such as AMC pages, SEBI regulations, and AMFI investor education materials.
+
+⚠️ The assistant does **not provide investment advice**.  
+All responses include **source citations**.
+
+---
+
+## Problem Statement
+
+Build a **facts-only mutual fund FAQ assistant** that answers questions such as:
+
+- Expense ratio
+- Exit load
+- Minimum SIP
+- ELSS lock-in period
+- Riskometer / Benchmark
+- Mutual fund documentation guidance
+
+Constraints:
+- Public sources only (AMC / SEBI / AMFI)
+- Every answer must include **a citation link**
+- Refuse opinion-based queries like **“Should I invest?”**
+- Responses must be **≤ 3 sentences**
+
+---
+
+## Project Scope
+
+Product Context: **Groww**
+
+Selected AMC: **NAVI Mutual Fund**
+
+Selected Schemes:
+- Navi Flexi Cap Fund Direct Growth
+- Navi Large & Midcap Fund Direct Growth
+- Navi Nifty MidSmallcap 400 Index Fund Direct Growth
+- Navi ELSS Tax Saver Nifty 50 Index Fund Direct Growth
+
+Knowledge Sources:
+- AMFI investor education materials
+- SEBI regulations
+- Groww AMC pages
+- NAVI scheme documents (SID / KIM)
+
+---
+
+## Live Application
+
+Chatbot:  
+https://navi-chatbot-frontend-production-273d.up.railway.app/
+
+---
+
+## Repository
+
+GitHub Repo:  
+https://github.com/Vadthyavath-Shiva5/RAG-based-CHATBOT-MutualFund-AMC-NAVI-Schemes-Groww
+
+---
+
+## Tech Stack
+
+- Python
+- Retrieval Augmented Generation (RAG)
+- LLM APIs
+- Cursor IDE
+- Visual Studio Code
+- Railway (deployment)
+- GitHub (version control)
+
+---
+
+## Features
+
+- Answers **mutual fund factual queries**
+- Retrieves information from **verified financial sources**
+- Provides **source citations in every response**
+- Rejects **investment advice queries**
+- Lightweight UI with example prompts
+
+---
+
+## Example Questions
+
+- What is the expense ratio of Navi Flexi Cap Fund?
+- What is the lock-in period of ELSS funds?
+- What is the minimum SIP for Navi funds?
+- What is NAV in mutual funds?
+- How can I download mutual fund statements?
+
+---
+
+## Key Learnings
+
+- Building **small-scale RAG pipelines**
+- Designing **facts-only AI assistants**
+- Prompt engineering for **safe responses**
+- Using **financial regulatory documentation as knowledge sources**
+- Deploying AI applications end-to-end
+
+---
+
+## Known Limitations
+
+- Limited to **selected NAVI mutual fund schemes**
+- Uses **static public sources**
+- Does not compute or compare **returns or performance**
+
+---
+
+## Disclaimer
+
+This assistant provides **educational and factual information only** based on public sources from AMC, SEBI, and AMFI.
+
+It does **not provide investment advice**.
